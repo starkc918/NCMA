@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Erie County Sheriff Office Database - Register</title>
+<title>NCMA - Register</title>
 <!-- CSS -->
 <link href="css/styleLogin.css" rel="stylesheet" type="text/css" media="all"/>
 <!-- Custom Theme files -->
@@ -16,7 +16,7 @@
 <body>
 <div class="login">
 	<div class="login-top">
-		<h1>Erie County Sheriff Office</h1>
+		<h1>National Constables & Marshals Association</h1>
 		<?php
 		/*
 		* REGISTRATION RETURN VALUES
@@ -56,7 +56,13 @@
 		?>
 		<form method="post" action="register.php">
         	<input type="text" name="uname" placeholder="Username" required>
-			<input type="text" name="dname" placeholder="Officer Name" required>
+			<input type="text" name="dname" placeholder="Full Name" required>
+			<input list="states" name="state" placeholder="State" required>
+				<datalist id="states" name="states">
+					<option value="Kentucky">
+					<option value="Texas">
+					
+				</datalist>
             <input type="text" name="email" placeholder="E-Mail" required>
 			<input type="password" name="pass" placeholder="Password" required>
 			<input type="password" name="repeat" placeholder="Repeat Password" required>
