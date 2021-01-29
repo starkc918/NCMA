@@ -1,0 +1,8 @@
+[25-Jul-2016 09:55:16 UTC] PHP Strict Standards:  Only variables should be passed by reference in /home/arma3l/public_html/police/php_includes/base.inc.php on line 98
+[25-Jul-2016 09:55:42 UTC] PHP Fatal error:  Call to a member function execute() on a non-object in /home/arma3l/public_html/police/php_includes/query.php on line 20
+[25-Jul-2016 10:00:02 UTC] PHP Fatal error:  Call to a member function execute() on a non-object in /home/arma3l/public_html/police/php_includes/query.php on line 20
+[25-Jul-2016 10:05:48 UTC] PHP Fatal error:  Call to a member function execute() on a non-object in /home/arma3l/public_html/police/php_includes/query.php on line 20
+[29-Jul-2016 22:30:40 UTC] PHP Fatal error:  Call to a member function execute() on a non-object in /home/arma3l/public_html/police/php_includes/query.php on line 20
+[29-Jul-2016 22:43:55 UTC] PHP Fatal error:  Call to a member function execute() on a non-object in /home/arma3l/public_html/police/php_includes/query.php on line 20
+[03-Aug-2016 00:16:11 UTC] PHP Strict Standards:  Only variables should be passed by reference in /home/arma3l/public_html/police/php_includes/base.inc.php on line 98
+[03-Aug-2016 00:19:29 UTC] PHP Fatal error:  Call to a member function execute() on a non-object in /home/arma3l/public_html/police/php_includes/query.php on line 20
