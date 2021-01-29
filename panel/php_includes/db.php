@@ -9,7 +9,7 @@ ini_set('display_errors',1);
 ini_set('display_startup_errors',1);
 define('HOST', "localhost");
 define('USER', "cstark_ncmausr");
-define('PASS', "%x_nmVJLHuk,");
+define('PASS', "CedYpU5JN2k6");
 define('DB', "cstark_ncmapanel");
 define('BASEDIR', "/home/cstark/public_html");
 
