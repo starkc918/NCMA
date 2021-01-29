@@ -58,10 +58,11 @@
         	<input type="text" name="uname" placeholder="Username" required>
 			<input type="text" name="dname" placeholder="Full Name" required>
 				<select id="states" name="states">
-					<option value="blank">State</option>
+					<option value="blank">State Affiliation</option>
 					<option value="Kentucky">Kentucky</option>
 					<option value="Texas">Texas</option>
 				</select>
+			
             <input type="text" name="email" placeholder="E-Mail" required>
 			<input type="password" name="pass" placeholder="Password" required>
 			<input type="password" name="repeat" placeholder="Repeat Password" required>
