@@ -62,7 +62,7 @@
 					<option value="Kentucky">
 					<option value="Texas">
 
-				</datalist>
+				</select>
             <input type="text" name="email" placeholder="E-Mail" required>
 			<input type="password" name="pass" placeholder="Password" required>
 			<input type="password" name="repeat" placeholder="Repeat Password" required>
