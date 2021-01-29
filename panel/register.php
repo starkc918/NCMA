@@ -58,10 +58,10 @@
         	<input type="text" name="uname" placeholder="Username" required>
 			<input type="text" name="dname" placeholder="Full Name" required>
 			<input list="states" name="state" placeholder="State" required>
-				<datalist id="states" name="states">
+				<select id="states" name="states">
 					<option value="Kentucky">
 					<option value="Texas">
-					
+
 				</datalist>
             <input type="text" name="email" placeholder="E-Mail" required>
 			<input type="password" name="pass" placeholder="Password" required>
