@@ -73,7 +73,7 @@
 	</div>
 </div>	
 <div class="copyright">
-	<p>© Copyright 2015 Life-Studios</p>
+	<p>© Copyright 2021 National Constables & Marshals Association</p>
 </div>
 </body>
 </html>

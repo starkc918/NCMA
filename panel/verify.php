@@ -143,7 +143,7 @@ foreach($_POST as $k => $v) {
 
 				<!-- Copyright -->
 				<footer>
-					<p class="copyright">© Copyright 2015 Life-Studios</p>
+					<p class="copyright">© Copyright 2021 National Constables & Marshals Association</p>
 				</footer>
 
 			</div>
