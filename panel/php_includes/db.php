@@ -1,6 +1,6 @@
 <?php
-/*define("WWWHOST", "cstark.me/panel");
-if($_SERVER["HTTP_HOST"] != WWWHOST) {
+define("WWWHOST", "cstark.me/panel");
+/*if($_SERVER["HTTP_HOST"] != WWWHOST) {
 	redirect("http://".WWWHOST."/".str_replace("/police/", "", $_SERVER["REQUEST_URI"]));
 	die();
 }*/
