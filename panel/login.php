@@ -20,7 +20,7 @@ if(isset($_POST['uname'])) {
 ?><!DOCTYPE HTML>
 <html>
 <head>
-<title>Erie County Sheriff Office Database - Secure Login</title>
+<title>NCMA - Secure Login</title>
 <!-- CSS -->
 <link href="css/styleLogin.css" rel="stylesheet" type="text/css" media="all"/>
 <!-- Custom Theme files -->
@@ -35,7 +35,7 @@ if(isset($_POST['uname'])) {
 <body>
 <div class="login">
 	<div class="login-top">
-		<h1>Erie County Sheriff Office</h1>
+		<h1>NCMA Login Panel</h1>
 		<form method="post" action="login.php">
 			<input type="text" name="uname" placeholder="Username" required>
 			<input type="password" name="pass" placeholder="Password" required>
@@ -53,7 +53,7 @@ if(isset($_POST['uname'])) {
 	</div>
 </div>	
 <div class="copyright">
-	<p>© Copyright 2015 Life-Studios</p>
+	<p>© Copyright 2021 National Constables & Marshals Association</p>
 </div>
 </body>
 </html>
