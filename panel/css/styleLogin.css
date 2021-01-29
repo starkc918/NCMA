@@ -70,6 +70,22 @@ body{
   width: 88%;
   -webkit-appearance: none;
 }
+.login-top select {
+  outline: none;
+  font-size: 15px;
+  font-weight: 500;
+  color: #818181;
+  padding: 15px 20px;
+  background: #CACACA;
+  border: 1px solid #ccc;
+  border-radius:25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -o-border-radius: 25px;
+  margin: 0px 0px 12px 0px;
+  width: 88%;
+  -webkit-appearance: none;
+}
 .login-top input[type="password"]{
 	outline: none;
   font-size: 15px;

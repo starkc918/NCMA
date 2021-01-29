@@ -57,7 +57,8 @@
 		<form method="post" action="register.php">
         	<input type="text" name="uname" placeholder="Username" required>
 			<input type="text" name="dname" placeholder="Full Name" required>
-				<select id="states" name="states" placeholder="State" required>
+				<select id="states" name="states">
+					<option value="blank">State</option>
 					<option value="Kentucky">Kentucky</option>
 					<option value="Texas">Texas</option>
 				</select>
