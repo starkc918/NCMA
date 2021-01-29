@@ -57,11 +57,9 @@
 		<form method="post" action="register.php">
         	<input type="text" name="uname" placeholder="Username" required>
 			<input type="text" name="dname" placeholder="Full Name" required>
-			<input list="states" name="state" placeholder="State" required>
 				<select id="states" name="states">
 					<option value="Kentucky">
 					<option value="Texas">
-
 				</select>
             <input type="text" name="email" placeholder="E-Mail" required>
 			<input type="password" name="pass" placeholder="Password" required>
