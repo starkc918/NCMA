@@ -49,7 +49,7 @@ if(isset($_POST['uname'])) {
 	    </form>
 	</div>
 	<div class="login-bottom">
-		<h3>New Officer? &nbsp;<a href="register.php">REGISTER</a></h3>
+		<h3><a href="register.php">REGISTER</a></h3>
 	</div>
 </div>	
 <div class="copyright">
