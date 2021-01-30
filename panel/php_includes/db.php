@@ -5,13 +5,13 @@ if($_SERVER["HTTP_HOST"] != WWWHOST) {
 	die();
 }
 //error_reporting(E_ALL);
-ini_set('display_errors',1);
-ini_set('display_startup_errors',1);
+ini_set('display_errors',0);
+ini_set('display_startup_errors',0);
 define('HOST', "localhost");
 define('USER', "cstark_ncmausr");
 define('PASS', "CedYpU5JN2k6");
 define('DB', "cstark_ncmapanel");
-define('BASEDIR', "/home/cstark/public_html");
+//define('BASEDIR', "/home/cstark/public_html");
 
 function genPDO($DB = DB, $user = USER, $pass = PASS, $host = HOST) {
 	$pdo = new PDO("mysql:host=".$host.";dbname=".$DB, $user, $pass);
