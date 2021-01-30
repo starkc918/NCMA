@@ -1,5 +1,5 @@
 <?php
-define("WWWHOST", "cstark.me/panel");
+define("WWWHOST", "panel.cstark.me");
 if($_SERVER["HTTP_HOST"] != WWWHOST) {
 	redirect("http://".WWWHOST."/".str_replace("/panel/", "", $_SERVER["REQUEST_URI"]));
 	die();
