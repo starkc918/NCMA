@@ -1,9 +1,9 @@
 <?php
 define("WWWHOST", "cstark.me/panel");
-/*if($_SERVER["HTTP_HOST"] != WWWHOST) {
-	redirect("http://".WWWHOST."/".str_replace("/police/", "", $_SERVER["REQUEST_URI"]));
+if($_SERVER["HTTP_HOST"] != WWWHOST) {
+	redirect("http://".WWWHOST."/".str_replace("/panel/", "", $_SERVER["REQUEST_URI"]));
 	die();
-}*/
+}
 //error_reporting(E_ALL);
 ini_set('display_errors',1);
 ini_set('display_startup_errors',1);
