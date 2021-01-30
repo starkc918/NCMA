@@ -56,7 +56,7 @@
 		?>
 		<form method="post" action="register.php">
         	<input type="text" name="uname" placeholder="Username" required>
-			<input type="text" name="dname" placeholder="Officer Name" required>
+			<input type="text" name="dname" placeholder="Full Name" required>
             <input type="text" name="email" placeholder="E-Mail" required>
 			<input type="password" name="pass" placeholder="Password" required>
 			<input type="password" name="repeat" placeholder="Repeat Password" required>
