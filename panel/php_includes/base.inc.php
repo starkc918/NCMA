@@ -31,8 +31,8 @@ define('WEEK', 604800);
 define('YEAR', 31556926);
 
 
-require( 'php_error.php' );
-\php_error\reportErrors();
+/*require( 'php_error.php' );
+\php_error\reportErrors();*/
 
 session_start();
 $luser = 0;
