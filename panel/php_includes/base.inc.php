@@ -517,7 +517,7 @@ function regUser($uname, $disname, $pass, $email) {
 	
 	$salt = genSalt();
 	$phash = hashPass($pass, $salt);
-	$stmt = $pdo->prepare("SELECT * FROM `users` WHERE `display` = :name OR `uname` = :uname OR `email` = :email");
+	$stmt = $pdo->prepare("SELECT * FROM `users` WHERE `disname` = :name OR `uname` = :uname OR `email` = :email");
 	
 	$civid = getCiv($disname);
 	if(!$civid) $civid = createCiv($disname);
@@ -529,7 +529,7 @@ function regUser($uname, $disname, $pass, $email) {
 	if($stmt->rowCount()) {
 		$user = $stmt->fetch();
 		if($user['uname'] == $uname) return 1;
-		if($user['display'] == $disname) return 2;
+		if($user['disname'] == $disname) return 2;
 		if($user['email'] == $email) return 3;
 	}
 	$stmt->closeCursor();
